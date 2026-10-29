@@ -18,10 +18,9 @@ export default function Classroom() {
   return (
     <main>
       <h1>Hello From Classroom</h1>
-      
-      <Suspense fallback={<p>Loading users...</p>}>
-        <UserList />
-      </Suspense>
+
+      {/* <Suspense fallback={<p>Loading users...</p>}></Suspense> */}
+      <UserList />
     </main>
   );
 }
